@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Web</title>
+  <link rel="icon" type="image/x-icon" href="/asset/Logo-my.png">
+</head>
+<body class="bg-[#FDFAF6] ">
+
+  <nav  class="fixed text-[#1B56FD]  w-full shadow text-lg  top-0 backdrop-blur-md z-10 sm:px-10">
+   <ul id="sidebar" class="hidden fixed flex-col top-0 right-0 h-screen w-[180px]  text-blue-500 p-3 backdrop-blur-md  space-y-4 z-100" >
+        <li class="closeSidebar cursor-pointer"><a onclick="visible()"  class="hover:opacity-75"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="36px" fill="#102C57"><path d="M256-192.35 192.35-256l224-224-224-224L256-767.65l224 224 224-224L767.65-704l-224 224 224 224L704-192.35l-224-224-224 224Z"/></svg></a></li>
+        <li><a href="" class="hover:opacity-75 ">About me</a></li>
+        <li><a href="" class="hover:opacity-75">Projects</a></li>
+        <li><a href="#form" class="hover:opacity-75">Contact</a></li>
+      </ul>
+    <div id="webNav" class="flex justify-between items-center p-3">
+
+      <a  class="hover:opacity-75 font-bold ">My Portfolio</a>
+        
+     
+      <ul class="flex space-x-6 hidden md:flex" >
+        <li><a class="hover:opacity-75 ">About me</a></li>
+        <li><a class="hover:opacity-75">Project</a></li>
+        <li><a class="hover:opacity-75" href="#form">Contact</a></li>
+        
+      </ul>
+     <a onclick="visible()" class="md:hidden cursor-pointer "><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="36px" fill="#102C57"><path d="M111.87-228.28v-91h736.26v91H111.87Zm0-206.22v-91h736.26v91H111.87Zm0-206.22v-91h736.26v91H111.87Z"/></svg></a>
+    </div>
+
+  </nav>
+
+  
+  <section class="relative min-h-screen max-w-full flex items-center lg:px-20 md:px-10">
+
+  <img src="/asset/Untitled design.png" class="hidden sm:flex h-screen  absolute justify-center lg:left-50 ">
+  <div style="background-image: url('/asset/Untitled%20design.png');" class=" relative h-screen bg-cover sm:hidden w-[613.67px] bg-center"></div>
+
+  <div class="absolute top-110 px-4 flex flex-col md:top-55 md:left-100 lg:top-55 lg:left-180 lg:w-[50%]">
+    <p class="text-lg text-gray-600 absolute -top-4 lg:text-3xl">Hello</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 lg:text-8xl my-2">I'm <span class="text-blue-500">Prince</span></h1>
+    <p class="text-lg text-gray-600 lg:text-3xl mb-2">A BSIS student from Kolehiyo ng Lungsod ng Dasmarinas</p>
+    <button class="h-8 w-40 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-700 transition">Download Resume</button>    
+
+  </div>
+  
+</section>
+
+<section class="bg-cover bg-center h-screen w-full" style="background-image: url(/asset/pexels-lum3n-44775-167699.jpg);"></section>
+<section id="form" class="p-5 sm:p-10 bg-cover bg-center h-screen w-full" style="background-image: url(/asset/pexels-veeterzy-39811.jpg);">
+
+<form action="" class="flex justify-center items-center backdrop-blur-sm h-[100%]" >
+  <h1 class="absolute top-2 text-4xl md:text-6xl font-bold text-white">Contact Form</h1>
+  <input type="email" class="bg-white">
+</form>
+
+</section>
+
+
+  <script src="/src/script.js"></script>
+</body>
+</html>

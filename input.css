@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+    .card {
+        @apply shadow-2xl shadow-black rounded-lg p-5 w-[250px] h-[350px] sm:w-[300px] sm:h-[400px] ring-1  ring-slate-900/5 grid-cols-1 hover:scale-105 transition-transform
+    }
+    .navbar{
+        @apply  fixed md:absolute h-12  min-w-full  pt-1 sm:pt-0.5 text-lg  top-0  z-10 sm:px-10 md:px-20 sm:py-5  shadow-lg  bg-gradient-to-r from-slate-900 to-slate-700
+    }
+    }
+   
